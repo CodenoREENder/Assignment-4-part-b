@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form - SMIT</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    .form-container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .form-section {
+      width: 48%;
+      box-sizing: border-box;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      height: 100px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="form-container">
+  <div class="form-section">
+    <form>
+      <label>Select city</label>
+      <select>
+        <option value="Karachi">Karachi</option>
+        <option value="Multan">Multan</option>
+        <option value="Islamabad">Islamabad</option>
+        <option value="Sukkur">Sukkur</option>
+        <option value="Lahore">Lahore</option>
+      </select>
+
+      <label>Full name</label>
+      <input type="text" required>
+
+      <label>Email</label>
+      <input type="email" required>
+
+      <label>CNIC</label>
+      <input type="text" required>
+
+      <label>Date of birth (mm/dd/yyyy)</label>
+      <input type="date" required>
+    </form>
+  </div>
+
+  <div class="form-section">
+    <form>
+      <label>Select course or event</label>
+      <select>
+        <option value="Web and Appp Development">Web and Appp Development</option>
+        <option value="Web 3.0">Web 3.0</option>
+        <option value="AI CHATBOT">AI CHATBOT</option>
+        <option value="Machine Learning">Machine Learning</option>
+        <option value="Python">Python</option>
+      </select>
+
+      <label>Father name</label>
+      <input type="text" required>
+
+      <label>Phone</label>
+      <input type="tel" required>
+
+      <label>Father's CNIC (optional)</label>
+      <input type="text">
+
+      <label>Select gender</label>
+      <select>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </form>
+  </div>
+
+  <div class="form-section"style="width: 100%;">
+    <form>
+      <label>Last qualification</label>
+      <select>
+        <option value="Matric">Matric</option>
+        <option value="O Level">O Level</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Graduate">Graduate</option>
+        <option value="Master">Master</option>
+      </select>
+      <label>Do you have a Laptop?</label>
+      <select>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </form>
+  </div>
+  <label>Upload your recent passport size picture</label>
+    <input type="file" accept="image/*">
+
+    <label>
+      I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SMIT<br>
+      <br>
+      I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.<br> 
+      <br>
+      Defiance will render my admission canceled at any point in time. <br>
+      <br>
+      Upon completion, of the course, I will complete the required project by SMIT.<br> 
+      <br>
+      It's mandatory for female students to wear abaya/hijab in the class
+    </label>
+
+  <button type="submit">Submit</button>
+</div>
+
+</body>
+</html>
